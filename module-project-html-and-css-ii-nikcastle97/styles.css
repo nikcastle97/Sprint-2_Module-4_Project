@@ -1,0 +1,75 @@
+body {
+  background-color:  #e0e8e9;
+  font-family: Arial;
+}
+
+#headerTop {
+  color: white;
+  background-color: navy;
+  padding: 0.5rem;
+  div {
+    display: inline-block;
+    span {
+      margin-right: 1rem;
+    }
+  }
+}
+
+span:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#headerBottom {
+  border-bottom: 1px solid gray;
+  padding: 0.5rem;
+  div {
+    display: inline-block;
+  }
+}
+
+button:only-child {
+  color: white;
+  background-color: navy;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+.secondary {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+/*
+button:hover -to alternatively select "hover" effect for buttons without the use of an "active" classname
+*/
+.active:hover {
+  font-weight: bolder;
+  border-bottom: solid 2px #3366cc;
+}
+
+.email {
+  padding: 1rem;
+  padding-left: 0.25rem;
+  border-bottom: solid 1px lightgray;
+  div {
+    display: inline-block;
+  }
+}
+
+.email-name, .email-subject {
+  width: 35%;
+}
+
+.email-check, .email-date, .email-size {
+  width: 8%;
+}
+
+.email:nth-of-type(2) {
+  font-weight: bold;
+}
